@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
-return "hola mundo"
+return "hola mundo";
   
 }
 
@@ -36,7 +36,7 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-return x + y
+return x + y;
   
   
 }
@@ -44,20 +44,20 @@ return x + y
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y - x
+  return y - x;
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x * y
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x/y
+  return x/y;
 }
 
 function sonIguales(x, y) {
@@ -65,7 +65,7 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(x==y){return "true"}else{return " false"}
-}
+};
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -79,19 +79,19 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(num<= 90){return"true"}else{return"false"}
-}
+};
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
    if(num<= 50)return"true"}else{return"false"}
-}
+};
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  return x % y ;
 }
 
 function esPar(num) {
@@ -99,7 +99,7 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(num>50){return "true"}else{return "false"}
-}
+};
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
@@ -107,26 +107,26 @@ function esImpar(num) {
   // Tu código:
   if(num % 2==0){return " true"}else{return "false"}
   
-}
+};
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return num*num
+  return num*num;
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return num*num*num
+  return num*num*num;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
+  return num ** exponent ;
 }
 
 function redondearNumero(num) {
@@ -152,8 +152,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero>0){return"es positivo"}else{return " es negativo"}
-  if(numero){return "false"
+  if(numero>0){return"es positivo"}if(numero==0){return "false"}else{return " es negativo";}
 }
 
 function agregarSimboloExclamacion(str) {
@@ -179,7 +178,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return alto * ancho 
+  return alto * ancho ;
 }
 
 
@@ -193,7 +192,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return base * altura
+return base * altura;
 }
 
 
@@ -201,7 +200,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 0,980153
+  return euro * 1.20;
 }
 
 
