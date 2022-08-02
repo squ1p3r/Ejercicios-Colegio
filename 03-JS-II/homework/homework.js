@@ -11,6 +11,7 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+  {if(edad >= 18)return "Allowed"}else{return "Nor allowed"
 }
   
 function conection(status) {
@@ -28,6 +29,9 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if(idioma=="aleman")return "guten tag"}
+}if(idioma =="mandarin")return "ni hao"}
+
 }
 
 function colors(color) {
@@ -44,12 +48,14 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
+  if(numero == 10 o 5) return "true"}else{return "false"}
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+  if(numero < 50 o >20) return "true"}else{return "false"
 }
 
 function esEntero(numero) {
